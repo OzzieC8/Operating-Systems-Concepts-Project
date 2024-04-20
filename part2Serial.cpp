@@ -20,7 +20,7 @@ int main() {
         std::istringstream iss(line);
         double latitude, longitude;
         if (!(iss >> latitude >> longitude)) {
-            continue; 
+            continue;  // Skip malformed lines
         }
 
         // Format the filename and curl command
