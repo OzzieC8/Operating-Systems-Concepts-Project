@@ -20,11 +20,11 @@ int main() {
         std::istringstream iss(line);
         double latitude, longitude;
         if (!(iss >> latitude >> longitude)) {
-            continue;  // Skip malformed lines
+            continue; 
         }
 
         // Format the filename and curl command
-        std::string filename = "file" + std::to_string(fileCounter++) + ".json";
+        std::string filename = "serial_file" + std::to_string(fileCounter++) + ".json";
         std::string command = "/usr/bin/curl -o " + filename + 
                               " \"https://api.open-meteo.com/v1/forecast?latitude=" +
                               std::to_string(latitude) + "&longitude=" +
