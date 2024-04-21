@@ -32,17 +32,19 @@ and permission inheritance works between parent and child processes.
 
 #### Parallel Fetcher
 
-real    0m0.545s
+    real    0m0.545s
 
-user    0m0.099s
+    user    0m0.099s
 
-sys     0m0.014s
+    sys     0m0.014s
 
 #### Serial Fetcher
 
-real    0m2.652s
-user    0m0.094s
-sys     0m0.010s
+    real    0m2.652s
+
+    user    0m0.094s
+
+    sys     0m0.010s
 
 ## Questions
 1. In the output of time, what is the difference between real, user, and sys times?
