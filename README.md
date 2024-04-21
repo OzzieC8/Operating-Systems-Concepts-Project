@@ -23,23 +23,24 @@ and permission inheritance works between parent and child processes.
 - Clone or download this repository.
 - Compile using:
   
-      g++ -o filename filename.cpp
-      g++ -o filename filename.cpp
-      g++ -o filename filename.cpp
+      g++ -o part1Shell part1Shell.cpp
+      g++ -o part2Parallel part2Parallel.cpp
+      g++ -o part2Serial part2Serial.cpp
   
 - Execute using:
 
-      ./filename
-      ./filename
-      ./filename
+      ./part1Shell
+      ./part2Parallel
+      ./part2Serial
 
 ## Finding the execution times for parallel and serial fetchers
 
 - After compilation use the command for both fetchers:
 
-      time ./filename
+      time ./part2Parallel
+      time ./part2Serial
 
-  ### Execution times for both fetchers
+  ### Execution times for both fetchers:
 
   #### Parallel Fetcher
 
