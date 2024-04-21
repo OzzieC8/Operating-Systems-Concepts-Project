@@ -14,7 +14,8 @@ and permission inheritance works between parent and child processes.
 ### Prerequisites
 
 - Linux
-- IDE and terminal
+- IDE
+- Terminal
 - g++ compiler
 - C++
 
