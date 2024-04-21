@@ -24,6 +24,7 @@ and permission inheritance works between parent and child processes.
 - Compile using:
   
       g++ -o filename filename.cpp
+  
 - Execute using:
 
       ./filename
