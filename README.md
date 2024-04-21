@@ -19,7 +19,7 @@ and permission inheritance works between parent and child processes.
 - g++ compiler
 - C++
 
-### Instructions
+### Instructions to run the repository
 
 - Clone or download this repository.
 - Compile using:
