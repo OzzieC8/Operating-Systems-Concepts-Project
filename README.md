@@ -33,7 +33,7 @@ and permission inheritance works between parent and child processes.
       ./filename
       ./filename
 
-## Finding the execution times for parallel and serial fetchers
+  ## Finding the execution times for parallel and serial fetchers
 
 - After compilation use the command for both fetchers:
 
