@@ -23,9 +23,11 @@ and permission inheritance works between parent and child processes.
 - Clone or download this repository.
 - Compile using:
   
-  g++ -o filename filename.cpp
+    g++ -o filename filename.cpp
+  
 - Execute using:
-      ./filename
+
+    ./filename
 
 ## Finding the execution times for parallel and serial fetchers
 
