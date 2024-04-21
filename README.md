@@ -20,20 +20,22 @@ and permission inheritance works between parent and child processes.
 
 ### Instructions
 
-1. Clone or download this repository.
-2. Compile using g++ -o filename filename.cpp
-3. Execute using ./filename
+- Clone or download this repository.
+- Compile using g++ -o filename filename.cpp
+- Execute using ./filename
 
 ## Finding the execution times for parallel and serial fetchers
 
-1. After compilation use the command for both fetchers: time ./filename
+- After compilation use the command for both fetchers: time ./filename
 
 ### Execution times for both fetchers
 
 #### Parallel Fetcher
 
 real    0m0.545s
+
 user    0m0.099s
+
 sys     0m0.014s
 
 #### Serial Fetcher
